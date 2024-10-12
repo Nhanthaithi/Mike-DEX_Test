@@ -1,0 +1,7 @@
+/* styles/index.css */
+.index-background {
+    background-image: url('../../public/assets/images/3d-rendering-blockchain-technology.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}

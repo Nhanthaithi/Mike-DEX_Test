@@ -9,12 +9,11 @@ import TeamMember from "./TeamMember";
 import Tokenomics from "./Tokenomics";
 import OurPartner from "./OutPartner";
 
-
 const HomePage: React.FC = () => {
   return (
     <Flex direction={"column"} position={"relative"}>
       <IncomeSolution />
-      <OurPartner/>
+      <OurPartner />
       <OurMission />
       <Tokenomics />
       <HowToBuy />

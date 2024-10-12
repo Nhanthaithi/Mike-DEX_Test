@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "concurrently \"node server/server.js\" \"next dev\"",
-    "build": "concurrently \"node server/server.js\" \"next build\"",
+    "build": "next build",
     "lint": "concurrently \"node server/server.js\" \"next lint\""
   },
   "dependencies": {
@@ -42,6 +42,7 @@
     "firebase": "^10.0.0",
     "framer-motion": "^10.12.18",
     "jotai": "^2.2.2",
+    "jsbi": "^4.3.0",
     "jsonwebtoken": "^9.0.2",
     "localforage": "^1.10.0",
     "lodash": "^4.17.21",
